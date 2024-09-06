@@ -1,0 +1,11 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+/* In your Tailwind CSS file or custom CSS */
+.no-image-placeholder {
+    background-color: #f3f4f6; /* Tailwind color gray-200 */
+    color: #6b7280; /* Tailwind color gray-600 */
+  }
+  

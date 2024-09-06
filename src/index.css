@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-primary: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+ 
+
+}
+/* In your Tailwind CSS file or custom CSS */
+.no-image-placeholder {
+  background-color: #f3f4f6; /* Tailwind color gray-200 */
+  color: #6b7280; /* Tailwind color gray-600 */
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
